@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74BDC8B02238089600B1571B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC8AF2238089600B1571B /* AppDelegate.swift */; };
+		74BDC8B32238089600B1571B /* JiujitsuTechniques.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC8B12238089600B1571B /* JiujitsuTechniques.xcdatamodeld */; };
+		74BDC8B52238089600B1571B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC8B42238089600B1571B /* MasterViewController.swift */; };
+		74BDC8B72238089600B1571B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC8B62238089600B1571B /* DetailViewController.swift */; };
+		74BDC8BA2238089600B1571B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BDC8B82238089600B1571B /* Main.storyboard */; };
+		74BDC8BC223808A200B1571B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BDC8BB223808A200B1571B /* Assets.xcassets */; };
+		74BDC8BF223808A200B1571B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BDC8BD223808A200B1571B /* LaunchScreen.storyboard */; };
+		74BDC8CA223808A200B1571B /* JiujitsuTechniquesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC8C9223808A200B1571B /* JiujitsuTechniquesTests.swift */; };
+		74BDC8D5223808A200B1571B /* JiujitsuTechniquesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC8D4223808A200B1571B /* JiujitsuTechniquesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74BDC8C6223808A200B1571B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74BDC8A42238089600B1571B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74BDC8AB2238089600B1571B;
+			remoteInfo = JiujitsuTechniques;
+		};
+		74BDC8D1223808A200B1571B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74BDC8A42238089600B1571B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74BDC8AB2238089600B1571B;
+			remoteInfo = JiujitsuTechniques;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74BDC8AC2238089600B1571B /* JiujitsuTechniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiujitsuTechniques.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BDC8AF2238089600B1571B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74BDC8B22238089600B1571B /* JiujitsuTechniques.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JiujitsuTechniques.xcdatamodel; sourceTree = "<group>"; };
+		74BDC8B42238089600B1571B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		74BDC8B62238089600B1571B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		74BDC8B92238089600B1571B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74BDC8BB223808A200B1571B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74BDC8BE223808A200B1571B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74BDC8C0223808A200B1571B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BDC8C5223808A200B1571B /* JiujitsuTechniquesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiujitsuTechniquesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BDC8C9223808A200B1571B /* JiujitsuTechniquesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiujitsuTechniquesTests.swift; sourceTree = "<group>"; };
+		74BDC8CB223808A200B1571B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BDC8D0223808A200B1571B /* JiujitsuTechniquesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiujitsuTechniquesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BDC8D4223808A200B1571B /* JiujitsuTechniquesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiujitsuTechniquesUITests.swift; sourceTree = "<group>"; };
+		74BDC8D6223808A200B1571B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74BDC8A92238089600B1571B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BDC8C2223808A200B1571B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BDC8CD223808A200B1571B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74BDC8A32238089600B1571B = {
+			isa = PBXGroup;
+			children = (
+				74BDC8AE2238089600B1571B /* JiujitsuTechniques */,
+				74BDC8C8223808A200B1571B /* JiujitsuTechniquesTests */,
+				74BDC8D3223808A200B1571B /* JiujitsuTechniquesUITests */,
+				74BDC8AD2238089600B1571B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74BDC8AD2238089600B1571B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74BDC8AC2238089600B1571B /* JiujitsuTechniques.app */,
+				74BDC8C5223808A200B1571B /* JiujitsuTechniquesTests.xctest */,
+				74BDC8D0223808A200B1571B /* JiujitsuTechniquesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74BDC8AE2238089600B1571B /* JiujitsuTechniques */ = {
+			isa = PBXGroup;
+			children = (
+				74BDC8AF2238089600B1571B /* AppDelegate.swift */,
+				74BDC8B42238089600B1571B /* MasterViewController.swift */,
+				74BDC8B62238089600B1571B /* DetailViewController.swift */,
+				74BDC8B82238089600B1571B /* Main.storyboard */,
+				74BDC8BB223808A200B1571B /* Assets.xcassets */,
+				74BDC8BD223808A200B1571B /* LaunchScreen.storyboard */,
+				74BDC8C0223808A200B1571B /* Info.plist */,
+				74BDC8B12238089600B1571B /* JiujitsuTechniques.xcdatamodeld */,
+			);
+			path = JiujitsuTechniques;
+			sourceTree = "<group>";
+		};
+		74BDC8C8223808A200B1571B /* JiujitsuTechniquesTests */ = {
+			isa = PBXGroup;
+			children = (
+				74BDC8C9223808A200B1571B /* JiujitsuTechniquesTests.swift */,
+				74BDC8CB223808A200B1571B /* Info.plist */,
+			);
+			path = JiujitsuTechniquesTests;
+			sourceTree = "<group>";
+		};
+		74BDC8D3223808A200B1571B /* JiujitsuTechniquesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74BDC8D4223808A200B1571B /* JiujitsuTechniquesUITests.swift */,
+				74BDC8D6223808A200B1571B /* Info.plist */,
+			);
+			path = JiujitsuTechniquesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74BDC8AB2238089600B1571B /* JiujitsuTechniques */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BDC8D9223808A200B1571B /* Build configuration list for PBXNativeTarget "JiujitsuTechniques" */;
+			buildPhases = (
+				74BDC8A82238089600B1571B /* Sources */,
+				74BDC8A92238089600B1571B /* Frameworks */,
+				74BDC8AA2238089600B1571B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiujitsuTechniques;
+			productName = JiujitsuTechniques;
+			productReference = 74BDC8AC2238089600B1571B /* JiujitsuTechniques.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74BDC8C4223808A200B1571B /* JiujitsuTechniquesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BDC8DC223808A200B1571B /* Build configuration list for PBXNativeTarget "JiujitsuTechniquesTests" */;
+			buildPhases = (
+				74BDC8C1223808A200B1571B /* Sources */,
+				74BDC8C2223808A200B1571B /* Frameworks */,
+				74BDC8C3223808A200B1571B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74BDC8C7223808A200B1571B /* PBXTargetDependency */,
+			);
+			name = JiujitsuTechniquesTests;
+			productName = JiujitsuTechniquesTests;
+			productReference = 74BDC8C5223808A200B1571B /* JiujitsuTechniquesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74BDC8CF223808A200B1571B /* JiujitsuTechniquesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BDC8DF223808A200B1571B /* Build configuration list for PBXNativeTarget "JiujitsuTechniquesUITests" */;
+			buildPhases = (
+				74BDC8CC223808A200B1571B /* Sources */,
+				74BDC8CD223808A200B1571B /* Frameworks */,
+				74BDC8CE223808A200B1571B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74BDC8D2223808A200B1571B /* PBXTargetDependency */,
+			);
+			name = JiujitsuTechniquesUITests;
+			productName = JiujitsuTechniquesUITests;
+			productReference = 74BDC8D0223808A200B1571B /* JiujitsuTechniquesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74BDC8A42238089600B1571B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Carl Fowler";
+				TargetAttributes = {
+					74BDC8AB2238089600B1571B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					74BDC8C4223808A200B1571B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 74BDC8AB2238089600B1571B;
+					};
+					74BDC8CF223808A200B1571B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 74BDC8AB2238089600B1571B;
+					};
+				};
+			};
+			buildConfigurationList = 74BDC8A72238089600B1571B /* Build configuration list for PBXProject "JiujitsuTechniques" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74BDC8A32238089600B1571B;
+			productRefGroup = 74BDC8AD2238089600B1571B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74BDC8AB2238089600B1571B /* JiujitsuTechniques */,
+				74BDC8C4223808A200B1571B /* JiujitsuTechniquesTests */,
+				74BDC8CF223808A200B1571B /* JiujitsuTechniquesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74BDC8AA2238089600B1571B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BDC8BF223808A200B1571B /* LaunchScreen.storyboard in Resources */,
+				74BDC8BC223808A200B1571B /* Assets.xcassets in Resources */,
+				74BDC8BA2238089600B1571B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BDC8C3223808A200B1571B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BDC8CE223808A200B1571B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74BDC8A82238089600B1571B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BDC8B02238089600B1571B /* AppDelegate.swift in Sources */,
+				74BDC8B32238089600B1571B /* JiujitsuTechniques.xcdatamodeld in Sources */,
+				74BDC8B52238089600B1571B /* MasterViewController.swift in Sources */,
+				74BDC8B72238089600B1571B /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BDC8C1223808A200B1571B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BDC8CA223808A200B1571B /* JiujitsuTechniquesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BDC8CC223808A200B1571B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BDC8D5223808A200B1571B /* JiujitsuTechniquesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74BDC8C7223808A200B1571B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74BDC8AB2238089600B1571B /* JiujitsuTechniques */;
+			targetProxy = 74BDC8C6223808A200B1571B /* PBXContainerItemProxy */;
+		};
+		74BDC8D2223808A200B1571B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74BDC8AB2238089600B1571B /* JiujitsuTechniques */;
+			targetProxy = 74BDC8D1223808A200B1571B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74BDC8B82238089600B1571B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74BDC8B92238089600B1571B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74BDC8BD223808A200B1571B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74BDC8BE223808A200B1571B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74BDC8D7223808A200B1571B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74BDC8D8223808A200B1571B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74BDC8DA223808A200B1571B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiujitsuTechniques/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lab3.JiujitsuTechniques;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74BDC8DB223808A200B1571B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiujitsuTechniques/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lab3.JiujitsuTechniques;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74BDC8DD223808A200B1571B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiujitsuTechniquesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lab3.JiujitsuTechniquesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiujitsuTechniques.app/JiujitsuTechniques";
+			};
+			name = Debug;
+		};
+		74BDC8DE223808A200B1571B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiujitsuTechniquesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lab3.JiujitsuTechniquesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiujitsuTechniques.app/JiujitsuTechniques";
+			};
+			name = Release;
+		};
+		74BDC8E0223808A200B1571B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiujitsuTechniquesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lab3.JiujitsuTechniquesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiujitsuTechniques;
+			};
+			name = Debug;
+		};
+		74BDC8E1223808A200B1571B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiujitsuTechniquesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lab3.JiujitsuTechniquesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiujitsuTechniques;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74BDC8A72238089600B1571B /* Build configuration list for PBXProject "JiujitsuTechniques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BDC8D7223808A200B1571B /* Debug */,
+				74BDC8D8223808A200B1571B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BDC8D9223808A200B1571B /* Build configuration list for PBXNativeTarget "JiujitsuTechniques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BDC8DA223808A200B1571B /* Debug */,
+				74BDC8DB223808A200B1571B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BDC8DC223808A200B1571B /* Build configuration list for PBXNativeTarget "JiujitsuTechniquesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BDC8DD223808A200B1571B /* Debug */,
+				74BDC8DE223808A200B1571B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BDC8DF223808A200B1571B /* Build configuration list for PBXNativeTarget "JiujitsuTechniquesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BDC8E0223808A200B1571B /* Debug */,
+				74BDC8E1223808A200B1571B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74BDC8B12238089600B1571B /* JiujitsuTechniques.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74BDC8B22238089600B1571B /* JiujitsuTechniques.xcdatamodel */,
+			);
+			currentVersion = 74BDC8B22238089600B1571B /* JiujitsuTechniques.xcdatamodel */;
+			path = JiujitsuTechniques.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74BDC8A42238089600B1571B /* Project object */;
+}
